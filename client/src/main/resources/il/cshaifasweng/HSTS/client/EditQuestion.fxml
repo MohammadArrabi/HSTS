@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="421.0" prefWidth="712.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.cshaifasweng.HSTS.client.EditQuestionController">
+    <children>
+        <TextField fx:id="textQ" layoutX="112.0" layoutY="55.0" prefHeight="76.0" prefWidth="523.0" />
+        <Label fx:id="labelWrite" layoutX="15.0" layoutY="14.0" prefHeight="26.0" prefWidth="175.0" text="Edit question:">
+            <font>
+                <Font name="David" size="18.0" />
+            </font>
+        </Label>
+        <Button fx:id="updateQuestion" layoutX="516.0" layoutY="275.0" mnemonicParsing="false" onAction="#UpdateQuestion" prefHeight="39.0" prefWidth="125.0" text="Update!" textFill="#1e00ff" />
+      <Label layoutX="23.0" layoutY="71.0" prefHeight="45.0" prefWidth="79.0" text="Question:">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="35.0" layoutY="161.0" text="Option A" />
+      <Label layoutX="35.0" layoutY="202.0" text="Option B" />
+      <Label layoutX="34.0" layoutY="245.0" text="Option C" />
+      <Label layoutX="34.0" layoutY="286.0" text="Option D" />
+      <Label layoutX="539.0" layoutY="161.0" text="Correct Option" textAlignment="CENTER" />
+      <TextField fx:id="optionA" layoutX="112.0" layoutY="157.0" prefHeight="25.0" prefWidth="334.0" />
+      <TextField fx:id="optionB" layoutX="112.0" layoutY="198.0" prefHeight="25.0" prefWidth="334.0" />
+      <TextField fx:id="optionC" layoutX="112.0" layoutY="241.0" prefHeight="25.0" prefWidth="334.0" />
+      <TextField fx:id="optionD" layoutX="112.0" layoutY="282.0" prefHeight="25.0" prefWidth="334.0" />
+      <ChoiceBox fx:id="correctAnsChoicebox" layoutX="504.0" layoutY="198.0" prefWidth="150.0">
+        <items>
+            <FXCollections fx:factory="observableArrayList">
+                <String fx:value="A" />
+                <String fx:value="B" />
+                <String fx:value="C" />
+                <String fx:value="D" />
+            </FXCollections>
+        </items>
+    </ChoiceBox>
+    </children>
+</AnchorPane>
