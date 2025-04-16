@@ -46,8 +46,6 @@ Pay attention to the three modules:
   <li>Clone the repository to your local machine using the following command:</li>
 </ol>
 
-<pre><code>git clone https://github.com/MuradMu/HSTS.git</code></pre>
-<p>OR</p>
 <pre><code>git clone https://github.com/MohammadArrabi/HSTS.git</code></pre>
 
 <ol start="2">
@@ -88,6 +86,5 @@ Pay attention to the three modules:
 <p>For any questions or inquiries, please contact:</p>
 
 <ol>
-  <li>Murad Murad - murad0546@gmail.com</li>
   <li>Mohammad Arabi - mohammadarabe22@gmail.com</li>
 </ol>
